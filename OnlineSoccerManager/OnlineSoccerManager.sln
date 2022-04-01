@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{EECA8148-67EB-4438-A330-AFF1133242EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{8FBDEE1C-A299-420D-A228-99E3A85AF780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infra", "4.Infra", "{E19BFBF9-4CDB-414E-A2EE-896914B52F85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0F9964BD-7311-4C63-A72A-F9A62037348B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{BC200C4F-8967-47C3-B04E-20CC09ACF13C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSoccerManager.Application", "OnlineSoccerManager.Application\OnlineSoccerManager.Application.csproj", "{D09D9F71-762C-4475-B261-0F778A0C50D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSoccerManager.Application.UnitTest", "OnlineSoccerManager.Application.UnitTest\OnlineSoccerManager.Application.UnitTest.csproj", "{EDFA3384-3E85-459A-AFD2-C009C53C4F4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSoccerManager.Domain.UnitTest", "OnlineSoccerManager.Domain.UnitTest\OnlineSoccerManager.Domain.UnitTest.csproj", "{1453F43F-3914-4E6E-847C-90B54D165948}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSoccerManager.Api", "OnlineSoccerManager.Api\OnlineSoccerManager.Api.csproj", "{1F032DBE-4053-464F-BD0F-B849A101B9E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSoccerManager.Domain", "OnlineSoccerManager.Domain\OnlineSoccerManager.Domain.csproj", "{CBE8B02B-33E3-41A7-B65B-400F054B50AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSoccerManager.Api.Test", "OnlineSoccerManager.Api.Test\OnlineSoccerManager.Api.Test.csproj", "{07D360AC-6844-4F92-8D0D-079F201DF90D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineSoccerManager.Infrastructure.DatabaseEFCore", "OnlineSoccerManager.Infrastructure.DatabaseEFCore\OnlineSoccerManager.Infrastructure.DatabaseEFCore.csproj", "{F95F9112-4558-49DC-8A3E-7AA88C8997C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Cross Cutting", "4.1 Cross Cutting", "{A5B9657E-584F-4FC7-AF82-C8FD5913AFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineSoccerManager.Infra.CrossCutting", "OnlineSoccerManager.Infra.CrossCutting\OnlineSoccerManager.Infra.CrossCutting.csproj", "{E4F6571B-F704-4827-927B-671911FFCFF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D09D9F71-762C-4475-B261-0F778A0C50D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D09D9F71-762C-4475-B261-0F778A0C50D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D09D9F71-762C-4475-B261-0F778A0C50D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D09D9F71-762C-4475-B261-0F778A0C50D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDFA3384-3E85-459A-AFD2-C009C53C4F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDFA3384-3E85-459A-AFD2-C009C53C4F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDFA3384-3E85-459A-AFD2-C009C53C4F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDFA3384-3E85-459A-AFD2-C009C53C4F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1453F43F-3914-4E6E-847C-90B54D165948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1453F43F-3914-4E6E-847C-90B54D165948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1453F43F-3914-4E6E-847C-90B54D165948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1453F43F-3914-4E6E-847C-90B54D165948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F032DBE-4053-464F-BD0F-B849A101B9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F032DBE-4053-464F-BD0F-B849A101B9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F032DBE-4053-464F-BD0F-B849A101B9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F032DBE-4053-464F-BD0F-B849A101B9E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE8B02B-33E3-41A7-B65B-400F054B50AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE8B02B-33E3-41A7-B65B-400F054B50AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE8B02B-33E3-41A7-B65B-400F054B50AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE8B02B-33E3-41A7-B65B-400F054B50AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D360AC-6844-4F92-8D0D-079F201DF90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D360AC-6844-4F92-8D0D-079F201DF90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D360AC-6844-4F92-8D0D-079F201DF90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D360AC-6844-4F92-8D0D-079F201DF90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95F9112-4558-49DC-8A3E-7AA88C8997C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95F9112-4558-49DC-8A3E-7AA88C8997C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95F9112-4558-49DC-8A3E-7AA88C8997C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95F9112-4558-49DC-8A3E-7AA88C8997C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F6571B-F704-4827-927B-671911FFCFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F6571B-F704-4827-927B-671911FFCFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F6571B-F704-4827-927B-671911FFCFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F6571B-F704-4827-927B-671911FFCFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D09D9F71-762C-4475-B261-0F778A0C50D0} = {EECA8148-67EB-4438-A330-AFF1133242EB}
+		{EDFA3384-3E85-459A-AFD2-C009C53C4F4F} = {0F9964BD-7311-4C63-A72A-F9A62037348B}
+		{1453F43F-3914-4E6E-847C-90B54D165948} = {0F9964BD-7311-4C63-A72A-F9A62037348B}
+		{1F032DBE-4053-464F-BD0F-B849A101B9E5} = {BC200C4F-8967-47C3-B04E-20CC09ACF13C}
+		{CBE8B02B-33E3-41A7-B65B-400F054B50AA} = {8FBDEE1C-A299-420D-A228-99E3A85AF780}
+		{07D360AC-6844-4F92-8D0D-079F201DF90D} = {0F9964BD-7311-4C63-A72A-F9A62037348B}
+		{F95F9112-4558-49DC-8A3E-7AA88C8997C5} = {E19BFBF9-4CDB-414E-A2EE-896914B52F85}
+		{A5B9657E-584F-4FC7-AF82-C8FD5913AFF0} = {E19BFBF9-4CDB-414E-A2EE-896914B52F85}
+		{E4F6571B-F704-4827-927B-671911FFCFF3} = {A5B9657E-584F-4FC7-AF82-C8FD5913AFF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47E8EE04-FD46-42FF-80A7-3B3CC73BF541}
+	EndGlobalSection
+EndGlobal
